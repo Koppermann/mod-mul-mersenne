@@ -26,6 +26,7 @@ After you input the parameters, the vhdl code (*mod_mul.vhd*) including testbenc
 
 # Performance Results
 The following table shows the performance results of modular multipliers for different Mersenne primes synthesized on a Zynq-7020 and a Zynq-7045: 
+
 | FPGA      | Mers. Prime | Mult. Width | Cycles | Freq. [MHz] | TP [GBit/s] | Time [ns] | #DSP | #LUTs | #Slices | #Regs |
 |-----------|-------------|-------------|--------|-------------|-------------|-----------|------|-------|---------|-------|
 | Zynq-7020 |      2^61-1 | 72*68       |      7 |         250 |       15.25 |     28.00 |   12 |   430 |     158 |   634 |
